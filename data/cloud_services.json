@@ -1,0 +1,139 @@
+{
+  "AWS": [
+    {
+      "name": "t3.micro",
+      "type": "compute",
+      "vcpu": 2,
+      "memory_gb": 1,
+      "price_per_month": 8.03,
+      "regions": [
+        "us-east-1",
+        "us-west-2",
+        "eu-west-1"
+      ],
+      "os": [
+        "Linux",
+        "Windows"
+      ],
+      "storage_gb": "EBS Only"
+    },
+    {
+      "name": "m5.large",
+      "type": "compute",
+      "vcpu": 2,
+      "memory_gb": 8,
+      "price_per_month": 77.76,
+      "regions": [
+        "us-east-1",
+        "us-west-2",
+        "eu-west-1"
+      ],
+      "os": [
+        "Linux",
+        "Windows"
+      ],
+      "storage_gb": "EBS Only"
+    },
+    {
+      "name": "S3 Standard",
+      "type": "storage",
+      "price_per_month": 0.023,
+      "regions": [
+        "us-east-1",
+        "us-west-2"
+      ],
+      "durability": "99.999999999%",
+      "availability": "99.99%"
+    }
+  ],
+  "Azure": [
+    {
+      "name": "B1s",
+      "type": "compute",
+      "vcpu": 1,
+      "memory_gb": 1,
+      "price_per_month": 9.56,
+      "regions": [
+        "eastus",
+        "westus"
+      ],
+      "os": [
+        "Linux",
+        "Windows"
+      ],
+      "storage_gb": "Premium SSD"
+    },
+    {
+      "name": "D2s v3",
+      "type": "compute",
+      "vcpu": 2,
+      "memory_gb": 8,
+      "price_per_month": 85.2,
+      "regions": [
+        "eastus",
+        "westus"
+      ],
+      "os": [
+        "Linux",
+        "Windows"
+      ],
+      "storage_gb": "Premium SSD"
+    },
+    {
+      "name": "Blob Storage Hot",
+      "type": "storage",
+      "price_per_month": 0.018,
+      "regions": [
+        "eastus",
+        "westus"
+      ],
+      "durability": "99.999999999%",
+      "availability": "99.9%"
+    }
+  ],
+  "GCP": [
+    {
+      "name": "e2-micro",
+      "type": "compute",
+      "vcpu": 2,
+      "memory_gb": 1,
+      "price_per_month": 7.32,
+      "regions": [
+        "us-central1",
+        "us-east1"
+      ],
+      "os": [
+        "Linux",
+        "Windows"
+      ],
+      "storage_gb": "Persistent Disk"
+    },
+    {
+      "name": "n2-standard-2",
+      "type": "compute",
+      "vcpu": 2,
+      "memory_gb": 8,
+      "price_per_month": 73.2,
+      "regions": [
+        "us-central1",
+        "us-east1"
+      ],
+      "os": [
+        "Linux",
+        "Windows"
+      ],
+      "storage_gb": "Persistent Disk"
+    },
+    {
+      "name": "Standard Storage",
+      "type": "storage",
+      "price_per_month": 0.02,
+      "regions": [
+        "us-central1",
+        "us-east1"
+      ],
+      "durability": "99.999999999%",
+      "availability": "99.9%"
+    }
+  ]
+}
