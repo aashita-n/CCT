@@ -77,7 +77,7 @@ python app.py
 ---
 
 ## Future Enhancements
---Integration with live APIs for real-time cloud data
---User authentication system
---Advanced analytics and reporting dashboards
---Addition of more service types and cloud providers
+Integration with live APIs for real-time cloud data
+User authentication system
+Advanced analytics and reporting dashboards
+Addition of more service types and cloud providers
