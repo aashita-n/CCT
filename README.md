@@ -51,16 +51,6 @@ CloudCompare solves this by presenting all relevant service information in a cen
 | DevOps      | Git, GitHub                                   |
 | Deployment  | Render                                        |
 
----
-
-## Folder Structure
-CloudCompare/
-├── static/ # CSS and JS assets
-├── templates/ # HTML templates
-├── data/ # JSON dataset
-├── app.py # Flask app
-├── requirements.txt # Python dependencies
-└── README.md
 
 ---
 
@@ -83,7 +73,7 @@ pip install -r requirements.txt
 # Start the Flask app
 python app.py
 
-Visit http://localhost:5000 in your browser.
+```
 ---
 
 ## Future Enhancements
