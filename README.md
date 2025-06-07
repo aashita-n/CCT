@@ -63,7 +63,7 @@ To run this project on your local machine:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/cloudcompare.git
+git clone https://github.com/aashita-n/cloudcompare.git
 cd cloudcompare
 
 # Create and activate a virtual environment
