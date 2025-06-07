@@ -2,6 +2,9 @@
 
 CloudCompare is a responsive and user-friendly web application that allows seamless comparison of compute and storage services from major cloud providers — AWS, Azure, and Google Cloud Platform (GCP). Built using Python (Flask), HTML/CSS, and JavaScript, the platform simplifies cloud service decision-making with a clean UI and powerful filtering capabilities.
 
+This project was developed by me, **Aashita Narayanpur** and **Prajwal J.B** as part of the Alternative Assessment Test (AAT)for the Cloud Computing course in the 6th semester of our B.Tech program. One of the primary requirements was to deploy the project on a cloud platform, and we have successfully hosted it on Render.
+
+
 Live Demo: [https://cct-8d1r.onrender.com](https://cct-8d1r.onrender.com)  
 Supports both desktop and mobile browsers.
 
